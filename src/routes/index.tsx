@@ -4,11 +4,7 @@ import {
   DollarSign,
   TrendingUp,
   Instagram,
-  Wallet,
-  BarChart3,
-  Smartphone,
   Coins,
-  Rocket,
   ShoppingBag,
   LineChart,
 } from "lucide-react";
