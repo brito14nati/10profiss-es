@@ -116,7 +116,7 @@ function Index() {
               </a>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
+            <div className="grid grid-cols-3 gap-2 sm:gap-4 max-w-3xl mx-auto">
               {[
                 { icon: Home, label: "Trabalho home office", iconWrap: "bg-brand-primary/15 border-brand-primary/30", iconColor: "text-brand-primary" },
                 { icon: Wallet, label: "Ganhe de R$500 a R$2.000 por mês", iconWrap: "bg-brand-accent/15 border-brand-accent/30", iconColor: "text-brand-accent" },
@@ -124,12 +124,12 @@ function Index() {
               ].map(({ icon: Icon, label, iconWrap, iconColor }) => (
                 <div
                   key={label}
-                  className="flex items-center gap-3 bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl px-4 py-3 text-left"
+                  className="flex flex-col items-center text-center gap-2 bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl px-3 py-4"
                 >
                   <div className={`flex-shrink-0 w-10 h-10 rounded-xl border flex items-center justify-center ${iconWrap}`}>
                     <Icon className={`w-5 h-5 ${iconColor}`} />
                   </div>
-                  <span className="text-sm font-semibold text-white leading-tight">{label}</span>
+                  <span className="text-xs sm:text-sm font-semibold text-white leading-tight">{label}</span>
                 </div>
               ))}
             </div>
