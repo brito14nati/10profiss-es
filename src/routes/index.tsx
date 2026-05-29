@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import ebookCover from "@/assets/ebook-cover.png";
+import shopeeLogo from "@/assets/shopee-logo.png";
 import {
   DollarSign,
   TrendingUp,
@@ -60,7 +61,7 @@ const notForYou = [
 ];
 
 const bonuses = [
-  { name: "Afiliado Shopee", desc: "Comissões divulgando produtos da maior marketplace asiática." },
+  { name: "Afiliado Shopee", desc: "Comissões divulgando produtos da maior marketplace asiática.", logo: shopeeLogo },
   { name: "Afiliado Mercado Livre", desc: "Programa de afiliados do maior e-commerce da América Latina." },
   { name: "Afiliado TikTok Shop", desc: "A nova fronteira do social commerce no Brasil." },
 ];
@@ -209,7 +210,11 @@ function Index() {
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {bonuses.map((b) => (
               <div key={b.name} className="relative bg-background rounded-2xl p-8 border border-border hover:border-brand-primary/40 transition-colors">
-                <div className="text-3xl mb-4">🎁</div>
+                {b.logo ? (
+                  <img src={b.logo} alt={`Logo ${b.name}`} loading="lazy" width={1024} height={1024} className="w-12 h-12 object-contain mb-4" />
+                ) : (
+                  <div className="text-3xl mb-4">🎁</div>
+                )}
                 <h3 className="font-bold text-lg mb-2">{b.name}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{b.desc}</p>
               </div>
