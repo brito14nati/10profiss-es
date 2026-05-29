@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import ebookCover from "@/assets/ebook-cover.jpg";
+import ebookCover from "@/assets/ebook-cover.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -82,14 +82,18 @@ function Index() {
                 </a>
               </div>
             </div>
-            <div className="lg:w-2/5">
-              <img
-                src={ebookCover}
-                alt="Capa do ebook 10 Profissões do Marketing Digital"
-                width={800}
-                height={1000}
-                className="w-full max-w-sm mx-auto rounded-2xl shadow-2xl shadow-brand-primary/10"
-              />
+            <div className="lg:w-2/5 flex justify-center">
+              <div className="relative">
+                <div className="absolute -inset-8 bg-gradient-to-br from-brand-primary/40 via-brand-accent/20 to-transparent blur-3xl rounded-full pointer-events-none" />
+                <div className="absolute -inset-2 bg-gradient-to-br from-brand-accent/30 to-brand-primary/10 blur-xl rounded-2xl pointer-events-none" />
+                <img
+                  src={ebookCover}
+                  alt="Capa do ebook 10 Profissões do Marketing Digital"
+                  width={1024}
+                  height={1280}
+                  className="relative w-full max-w-xs lg:max-w-sm drop-shadow-2xl"
+                />
+              </div>
             </div>
           </div>
         </div>
