@@ -4,11 +4,7 @@ import {
   DollarSign,
   TrendingUp,
   Instagram,
-  Wallet,
-  BarChart3,
-  Smartphone,
   Coins,
-  Rocket,
   ShoppingBag,
   LineChart,
 } from "lucide-react";
@@ -116,25 +112,8 @@ function Index() {
                 QUERO MEU ACESSO AGORA
               </a>
             </div>
-
-            {/* Trust strip with themed pillars */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto">
-              {[
-                { icon: Wallet, label: "Renda Extra" },
-                { icon: BarChart3, label: "Crescimento" },
-                { icon: Smartphone, label: "Redes Sociais" },
-                { icon: Rocket, label: "Sem Experiência" },
-              ].map(({ icon: Icon, label }) => (
-                <div
-                  key={label}
-                  className="flex items-center gap-2 px-4 py-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
-                >
-                  <Icon className="w-5 h-5 text-brand-primary flex-shrink-0" />
-                  <span className="text-sm font-semibold text-slate-200">{label}</span>
-                </div>
-              ))}
-            </div>
           </div>
+
         </div>
       </header>
 
