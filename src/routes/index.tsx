@@ -253,7 +253,7 @@ function Index() {
                 />
               </div>
               <div className="p-6 border-t border-border">
-                <p className="text-xs font-semibold tracking-widest uppercase text-brand-primary mb-2">Painel de Afiliado</p>
+                <p className="text-xs font-semibold tracking-widest uppercase text-brand-primary mb-2">Painel de Afiliado do tiktok shop</p>
                 <h3 className="font-bold text-lg mb-1">R$ 1,5K em vendas em 1 dia</h3>
                 <p className="text-sm text-muted-foreground">28 itens vendidos e comissões acumulando todos os dias.</p>
               </div>
