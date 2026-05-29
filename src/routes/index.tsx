@@ -95,7 +95,7 @@ function Index() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-widest uppercase bg-brand-primary/10 text-brand-accent border border-brand-accent/20 rounded-full">
-              Guia Prático
+              Ebook Prático
             </span>
             <h1 className="font-display text-4xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
               Ganhe Renda Extra com uma dessas{" "}
