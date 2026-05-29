@@ -119,7 +119,7 @@ function Index() {
             <div className="grid grid-cols-3 gap-2 sm:gap-4 max-w-3xl mx-auto">
               {[
                 { icon: Home, label: "Trabalho 100% home office", iconWrap: "bg-brand-primary/15 border-brand-primary/30", iconColor: "text-brand-primary" },
-                { icon: Wallet, label: "Ganhe de R$500 a R$2.000 por mês", iconWrap: "bg-brand-accent/15 border-brand-accent/30", iconColor: "text-brand-accent" },
+                { icon: Wallet, label: "Ganhe + de R$500 por mês", iconWrap: "bg-brand-accent/15 border-brand-accent/30", iconColor: "text-brand-accent" },
                 { icon: Sparkles, label: "Mude a sua realidade", iconWrap: "bg-warning/15 border-warning/30", iconColor: "text-warning" },
               ].map(({ icon: Icon, label, iconWrap, iconColor }) => (
                 <div
