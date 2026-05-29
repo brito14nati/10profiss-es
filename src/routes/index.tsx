@@ -180,7 +180,7 @@ function Index() {
             ))}
           </div>
           <div className="mt-12 max-w-3xl mx-auto bg-card border border-border rounded-2xl p-8">
-            <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">Em cada profissão você descobre</p>
+            <p className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">Em cada profissão você descobre:</p>
             <ul className="grid sm:grid-cols-2 gap-3 text-sm">
               {[
                 "O que o profissional faz",
