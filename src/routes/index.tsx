@@ -1,5 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
 import ebookCover from "@/assets/ebook-cover.png";
+import {
+  DollarSign,
+  TrendingUp,
+  Instagram,
+  Wallet,
+  BarChart3,
+  Smartphone,
+  Coins,
+  Rocket,
+  ShoppingBag,
+  LineChart,
+} from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
