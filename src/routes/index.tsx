@@ -269,7 +269,7 @@ function Index() {
                 />
               </div>
               <div className="p-6 border-t border-border">
-                <p className="text-xs font-semibold tracking-widest uppercase text-success mb-2">Pix Recebido</p>
+                <p className="text-xs font-semibold tracking-widest uppercase text-success mb-2">Pix Recebido de trabalho como social media</p>
                 <h3 className="font-bold text-lg mb-1">+ R$ 1.000,00 na conta</h3>
                 <p className="text-sm text-muted-foreground">Resultado do trabalho como afiliado aplicando o que está no guia.</p>
               </div>
