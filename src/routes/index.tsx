@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import ebookCover from "@/assets/ebook-cover.png";
 import shopeeLogo from "@/assets/shopee-logo.png";
+import mercadoLivreLogo from "@/assets/mercadolivre-logo.png";
 import {
   DollarSign,
   TrendingUp,
@@ -62,7 +63,7 @@ const notForYou = [
 
 const bonuses = [
   { name: "Afiliado Shopee", desc: "Comissões divulgando produtos da maior marketplace asiática.", logo: shopeeLogo },
-  { name: "Afiliado Mercado Livre", desc: "Programa de afiliados do maior e-commerce da América Latina." },
+  { name: "Afiliado Mercado Livre", desc: "Programa de afiliados do maior e-commerce da América Latina.", logo: mercadoLivreLogo },
   { name: "Afiliado TikTok Shop", desc: "A nova fronteira do social commerce no Brasil." },
 ];
 
