@@ -209,7 +209,7 @@ function Index() {
               Bônus Especial
             </span>
             <h2 className="font-display text-3xl lg:text-4xl font-extrabold mb-3">Outras formas de gerar renda</h2>
-            <p className="text-muted-foreground">Você vai aprender a usar o programas de afiliados para começar a divulgar produtos e ganhar comissões.</p>
+            <p className="text-muted-foreground">Você vai conhecer os programas de afiliados para começar a divulgar produtos e ganhar comissões.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {bonuses.map((b) => (
