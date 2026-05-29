@@ -248,7 +248,7 @@ function Index() {
           <div className="bg-white/5 border border-white/10 p-10 lg:p-12 rounded-3xl backdrop-blur-sm">
             <p className="text-sm text-slate-400 uppercase tracking-widest mb-2">Hoje por apenas</p>
             <div className="text-6xl lg:text-7xl font-display font-extrabold text-brand-accent mb-3">
-              R$ XX,XX
+              R$ 17,90
             </div>
             <p className="text-sm text-slate-400 mb-8">Pagamento único · Acesso imediato</p>
             <a
