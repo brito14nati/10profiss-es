@@ -238,7 +238,7 @@ function Index() {
               Quem aplicou já está colhendo
             </h2>
             <p className="text-muted-foreground">
-              Prints reais de quem começou usando os métodos do guia. Sem promessas mirabolantes — apenas trabalho consistente.
+              Prints reais de quem começou usando os métodos do guia. Sem promessas mirabolantes - apenas trabalho consistente.
             </p>
           </div>
 
