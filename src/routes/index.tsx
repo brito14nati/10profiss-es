@@ -3,6 +3,8 @@ import ebookCover from "@/assets/ebook-cover.png";
 import shopeeLogo from "@/assets/shopee-logo.png";
 import mercadoLivreLogo from "@/assets/mercadolivre-logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.png";
+import resultDashboard from "@/assets/result-dashboard.png";
+import resultPix from "@/assets/result-pix.png";
 import {
   DollarSign,
   TrendingUp,
@@ -222,6 +224,61 @@ function Index() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Real Results / Social Proof */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-12 max-w-2xl mx-auto">
+            <span className="inline-block px-4 py-1.5 mb-4 text-xs font-bold tracking-widest uppercase bg-success/10 text-success rounded-full">
+              Resultados Reais
+            </span>
+            <h2 className="font-display text-3xl lg:text-4xl font-extrabold mb-3">
+              Quem aplicou já está colhendo
+            </h2>
+            <p className="text-muted-foreground">
+              Prints reais de quem começou usando os métodos do guia. Sem promessas mirabolantes — apenas trabalho consistente.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div className="p-4 bg-gradient-to-br from-brand-primary/5 to-brand-accent/5">
+                <img
+                  src={resultDashboard}
+                  alt="Painel de afiliado mostrando R$ 1,5K de GMV atribuído, 28 itens vendidos e R$ 143,55 de comissão estimada"
+                  loading="lazy"
+                  className="w-full h-auto rounded-2xl border border-border"
+                />
+              </div>
+              <div className="p-6 border-t border-border">
+                <p className="text-xs font-semibold tracking-widest uppercase text-brand-primary mb-2">Painel de Afiliado</p>
+                <h3 className="font-bold text-lg mb-1">R$ 1,5K em vendas em 1 dia</h3>
+                <p className="text-sm text-muted-foreground">28 itens vendidos e comissões acumulando todos os dias.</p>
+              </div>
+            </div>
+
+            <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div className="p-4 bg-gradient-to-br from-success/5 to-brand-accent/5 flex items-center justify-center min-h-[240px]">
+                <img
+                  src={resultPix}
+                  alt="Notificação de recebimento de R$ 1.000,00 via Pix"
+                  loading="lazy"
+                  className="w-full h-auto rounded-2xl border border-border"
+                />
+              </div>
+              <div className="p-6 border-t border-border">
+                <p className="text-xs font-semibold tracking-widest uppercase text-success mb-2">Pix Recebido</p>
+                <h3 className="font-bold text-lg mb-1">+ R$ 1.000,00 na conta</h3>
+                <p className="text-sm text-muted-foreground">Resultado do trabalho como afiliado aplicando o que está no guia.</p>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-center text-xs text-muted-foreground mt-8 max-w-xl mx-auto">
+            * Resultados variam de pessoa para pessoa e dependem de dedicação, consistência e aplicação do conteúdo.
+          </p>
         </div>
       </section>
 
