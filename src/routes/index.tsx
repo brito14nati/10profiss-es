@@ -1,5 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
 import ebookCover from "@/assets/ebook-cover.png";
+import {
+  DollarSign,
+  TrendingUp,
+  Instagram,
+  Wallet,
+  BarChart3,
+  Smartphone,
+  Coins,
+  Rocket,
+  ShoppingBag,
+  LineChart,
+} from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -60,6 +72,30 @@ function Index() {
       {/* Hero */}
       <header className="relative overflow-hidden bg-brand-deep py-16 lg:py-24">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-brand-primary/15 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(56,189,248,0.15),transparent_50%),radial-gradient(circle_at_80%_70%,rgba(16,185,129,0.12),transparent_55%)] pointer-events-none" />
+
+        {/* Floating decorative icons */}
+        <div className="absolute inset-0 pointer-events-none hidden sm:block" aria-hidden="true">
+          <div className="absolute top-[12%] left-[6%] w-14 h-14 rounded-2xl bg-brand-primary/15 border border-brand-primary/30 backdrop-blur-sm flex items-center justify-center rotate-[-8deg] animate-[float_6s_ease-in-out_infinite]">
+            <DollarSign className="w-7 h-7 text-brand-primary" />
+          </div>
+          <div className="absolute top-[20%] right-[8%] w-16 h-16 rounded-2xl bg-brand-accent/15 border border-brand-accent/30 backdrop-blur-sm flex items-center justify-center rotate-[10deg] animate-[float_7s_ease-in-out_infinite_0.6s]">
+            <TrendingUp className="w-8 h-8 text-brand-accent" />
+          </div>
+          <div className="absolute top-[55%] left-[4%] w-12 h-12 rounded-xl bg-warning/15 border border-warning/30 backdrop-blur-sm flex items-center justify-center rotate-[6deg] animate-[float_8s_ease-in-out_infinite_1.2s]">
+            <Coins className="w-6 h-6 text-warning" />
+          </div>
+          <div className="absolute top-[60%] right-[6%] w-14 h-14 rounded-2xl bg-brand-primary/15 border border-brand-primary/30 backdrop-blur-sm flex items-center justify-center rotate-[-12deg] animate-[float_6.5s_ease-in-out_infinite_0.3s]">
+            <Instagram className="w-7 h-7 text-brand-primary" />
+          </div>
+          <div className="absolute top-[35%] left-[12%] w-10 h-10 rounded-xl bg-success/15 border border-success/30 backdrop-blur-sm flex items-center justify-center rotate-[15deg] animate-[float_7.5s_ease-in-out_infinite_0.9s]">
+            <LineChart className="w-5 h-5 text-success" />
+          </div>
+          <div className="absolute top-[42%] right-[14%] w-11 h-11 rounded-xl bg-brand-accent/15 border border-brand-accent/30 backdrop-blur-sm flex items-center justify-center rotate-[-6deg] animate-[float_8.5s_ease-in-out_infinite_1.5s]">
+            <ShoppingBag className="w-5 h-5 text-brand-accent" />
+          </div>
+        </div>
+
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-widest uppercase bg-brand-primary/10 text-brand-accent border border-brand-accent/20 rounded-full">
@@ -72,13 +108,31 @@ function Index() {
             <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
               Descubra formas reais de começar a ganhar dinheiro pela internet, mesmo sem experiência e sem precisar investir alto.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a
                 href="#pricing"
                 className="px-8 py-4 bg-brand-primary hover:bg-brand-accent text-white font-bold rounded-xl transition-all shadow-lg shadow-brand-primary/30 text-center"
               >
                 QUERO MEU ACESSO AGORA
               </a>
+            </div>
+
+            {/* Trust strip with themed pillars */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto">
+              {[
+                { icon: Wallet, label: "Renda Extra" },
+                { icon: BarChart3, label: "Crescimento" },
+                { icon: Smartphone, label: "Redes Sociais" },
+                { icon: Rocket, label: "Sem Experiência" },
+              ].map(({ icon: Icon, label }) => (
+                <div
+                  key={label}
+                  className="flex items-center gap-2 px-4 py-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
+                >
+                  <Icon className="w-5 h-5 text-brand-primary flex-shrink-0" />
+                  <span className="text-sm font-semibold text-slate-200">{label}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
