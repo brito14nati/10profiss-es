@@ -3,6 +3,8 @@ import ebookCover from "@/assets/ebook-cover.png";
 import shopeeLogo from "@/assets/shopee-logo.png";
 import mercadoLivreLogo from "@/assets/mercadolivre-logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.png";
+import resultDashboard from "@/assets/result-dashboard.png";
+import resultPix from "@/assets/result-pix.png";
 import {
   DollarSign,
   TrendingUp,
