@@ -61,39 +61,24 @@ function Index() {
       <header className="relative overflow-hidden bg-brand-deep py-16 lg:py-24">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-brand-primary/15 to-transparent pointer-events-none" />
         <div className="container mx-auto px-6 relative z-10">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="lg:w-3/5 text-center lg:text-left">
-              <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-widest uppercase bg-brand-primary/10 text-brand-accent border border-brand-accent/20 rounded-full">
-                Guia Prático
-              </span>
-              <h1 className="font-display text-4xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
-                Ganhe Renda Extra com uma dessas{" "}
-                <span className="text-brand-primary">10 Profissões</span> do Marketing Digital
-              </h1>
-              <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto lg:mx-0">
-                Descubra formas reais de começar a ganhar dinheiro pela internet, mesmo sem experiência e sem precisar investir alto.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a
-                  href="#pricing"
-                  className="px-8 py-4 bg-brand-primary hover:bg-brand-accent text-white font-bold rounded-xl transition-all shadow-lg shadow-brand-primary/30 text-center"
-                >
-                  QUERO MEU ACESSO AGORA
-                </a>
-              </div>
-            </div>
-            <div className="lg:w-2/5 flex justify-center">
-              <div className="relative">
-                <div className="absolute -inset-8 bg-gradient-to-br from-brand-primary/40 via-brand-accent/20 to-transparent blur-3xl rounded-full pointer-events-none" />
-                <div className="absolute -inset-2 bg-gradient-to-br from-brand-accent/30 to-brand-primary/10 blur-xl rounded-2xl pointer-events-none" />
-                <img
-                  src={ebookCover}
-                  alt="Capa do ebook 10 Profissões do Marketing Digital"
-                  width={1024}
-                  height={1280}
-                  className="relative w-full max-w-xs lg:max-w-sm drop-shadow-2xl"
-                />
-              </div>
+          <div className="max-w-4xl mx-auto text-center">
+            <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-widest uppercase bg-brand-primary/10 text-brand-accent border border-brand-accent/20 rounded-full">
+              Guia Prático
+            </span>
+            <h1 className="font-display text-4xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+              Ganhe Renda Extra com uma dessas{" "}
+              <span className="text-brand-primary">10 Profissões</span> do Marketing Digital
+            </h1>
+            <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
+              Descubra formas reais de começar a ganhar dinheiro pela internet, mesmo sem experiência e sem precisar investir alto.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="#pricing"
+                className="px-8 py-4 bg-brand-primary hover:bg-brand-accent text-white font-bold rounded-xl transition-all shadow-lg shadow-brand-primary/30 text-center"
+              >
+                QUERO MEU ACESSO AGORA
+              </a>
             </div>
           </div>
         </div>
