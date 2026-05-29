@@ -255,7 +255,7 @@ function Index() {
               <div className="p-6 border-t border-border">
                 <p className="text-xs font-semibold tracking-widest uppercase text-brand-primary mb-2">Painel de Afiliado do tiktok shop</p>
                 <h3 className="font-bold text-lg mb-1">R$143 de comissão em 1 dia</h3>
-                <p className="text-sm text-muted-foreground">28 itens vendidos e comissões acumulando todos os dias.</p>
+                <p className="text-sm text-muted-foreground">Vendendo todos os dias esse valor, no final do mês você lucra R$4.290</p>
               </div>
             </div>
 
