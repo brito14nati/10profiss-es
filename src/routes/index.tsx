@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import ebookCover from "@/assets/ebook-cover.jpg";
+import ebookCover from "@/assets/ebook-cover.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
