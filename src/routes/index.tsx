@@ -7,6 +7,9 @@ import {
   Coins,
   ShoppingBag,
   LineChart,
+  Home,
+  Wallet,
+  Sparkles,
 } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -104,13 +107,31 @@ function Index() {
             <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
               Descubra formas reais de começar a ganhar dinheiro pela internet, mesmo sem experiência e sem precisar investir alto.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <a
                 href="#pricing"
                 className="px-8 py-4 bg-brand-primary hover:bg-brand-accent text-white font-bold rounded-xl transition-all shadow-lg shadow-brand-primary/30 text-center"
               >
                 QUERO MEU ACESSO AGORA
               </a>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
+              {[
+                { icon: Home, label: "Trabalho home office", tint: "brand-primary" },
+                { icon: Wallet, label: "Ganhe de R$500 a R$2.000 por mês", tint: "brand-accent" },
+                { icon: Sparkles, label: "Mude a sua realidade", tint: "warning" },
+              ].map(({ icon: Icon, label, tint }) => (
+                <div
+                  key={label}
+                  className="flex items-center gap-3 bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl px-4 py-3 text-left"
+                >
+                  <div className={`flex-shrink-0 w-10 h-10 rounded-xl bg-${tint}/15 border border-${tint}/30 flex items-center justify-center`}>
+                    <Icon className={`w-5 h-5 text-${tint}`} />
+                  </div>
+                  <span className="text-sm font-semibold text-white leading-tight">{label}</span>
+                </div>
+              ))}
             </div>
           </div>
 
