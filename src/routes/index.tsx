@@ -25,6 +25,7 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Descubra 10 profissões reais do marketing digital para começar a ganhar renda extra pela internet, mesmo sem experiência. Acesso imediato." },
       { property: "og:title", content: "Ganhe Renda Extra com 10 Profissões do Marketing Digital" },
       { property: "og:description", content: "10 profissões digitais reais + bônus de afiliados (Shopee, Mercado Livre, TikTok Shop)." },
+      { property: "og:url", content: "https://digital-pathways-unlocked.lovable.app/" },
       { property: "og:image", content: ebookCover },
       { name: "twitter:image", content: ebookCover },
     ],
