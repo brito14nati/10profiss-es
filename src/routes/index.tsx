@@ -272,7 +272,7 @@ function Index() {
               <div className="p-6 border-t border-border">
                 <p className="text-xs font-semibold tracking-widest uppercase text-warning mb-2">painel de afiliado da shopee</p>
                 <h3 className="font-bold text-lg mb-1">R$546,50 de comissão no mês</h3>
-                <p className="text-sm text-muted-foreground">190 pedidos e R$ 546,50 de comissão estimada aplicando o método do guia.</p>
+                <p className="text-sm text-muted-foreground">A depender do produto e da % de comissão esse lucro pode ser ainda maior</p>
               </div>
             </div>
 
