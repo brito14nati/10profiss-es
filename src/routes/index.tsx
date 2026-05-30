@@ -243,7 +243,7 @@ function Index() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="p-4 bg-gradient-to-br from-brand-primary/5 to-brand-accent/5">
                 <img
