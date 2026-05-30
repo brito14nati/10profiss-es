@@ -5,6 +5,7 @@ import mercadoLivreLogo from "@/assets/mercadolivre-logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.png";
 import resultDashboard from "@/assets/result-dashboard.png";
 import resultPix from "@/assets/result-pix.png";
+import resultMetrics from "@/assets/result-metrics.png";
 import {
   DollarSign,
   TrendingUp,
