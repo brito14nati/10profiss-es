@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Ganhe Renda Extra com 10 Profissões do Marketing Digital" },
+      { title: "Guia Profissões Digitais" },
       { name: "description", content: "Descubra 10 profissões do marketing digital para gerar renda extra. Inclui bônus: Afiliado TikTok Shop, Shopee e Mercado Livre." },
       { name: "author", content: "Lovable" },
       { property: "og:type", content: "website" },
