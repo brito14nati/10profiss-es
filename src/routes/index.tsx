@@ -5,6 +5,7 @@ import mercadoLivreLogo from "@/assets/mercadolivre-logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.png";
 import resultDashboard from "@/assets/result-dashboard.png";
 import resultPix from "@/assets/result-pix.png";
+import resultMetrics from "@/assets/result-metrics.png";
 import {
   DollarSign,
   TrendingUp,
@@ -242,7 +243,7 @@ function Index() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="p-4 bg-gradient-to-br from-brand-primary/5 to-brand-accent/5">
                 <img
@@ -274,7 +275,24 @@ function Index() {
                 <p className="text-sm text-muted-foreground">Resultado do trabalho com uma das profissões do marketing digital, aplicando o que está no guia</p>
               </div>
             </div>
-          </div>
+            </div>
+
+            <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div className="p-4 bg-gradient-to-br from-warning/5 to-brand-primary/5 flex items-center justify-center min-h-[240px]">
+                <img
+                  src={resultMetrics}
+                  alt="Painel de métricas mostrando 6,1 mil em vendas, 190 pedidos, 202 itens vendidos e R$ 546,50 de comissão estimada no mês"
+                  loading="lazy"
+                  className="w-full h-auto rounded-2xl border border-border"
+                />
+              </div>
+              <div className="p-6 border-t border-border">
+                <p className="text-xs font-semibold tracking-widest uppercase text-warning mb-2">Métricas do mês</p>
+                <h3 className="font-bold text-lg mb-1">R$ 6,1 mil em vendas no mês</h3>
+                <p className="text-sm text-muted-foreground">190 pedidos e R$ 546,50 de comissão estimada aplicando o método do guia.</p>
+              </div>
+            </div>
+
 
           <p className="text-center text-xs text-muted-foreground mt-8 max-w-xl mx-auto">
             * Resultados variam de pessoa para pessoa e dependem de dedicação, consistência e aplicação do conteúdo.
