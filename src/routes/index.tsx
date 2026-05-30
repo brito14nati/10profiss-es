@@ -261,23 +261,6 @@ function Index() {
             </div>
 
             <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-              <div className="p-4 bg-gradient-to-br from-success/5 to-brand-accent/5 flex items-center justify-center min-h-[240px]">
-                <img
-                  src={resultPix}
-                  alt="Notificação de recebimento de R$ 1.000,00 via Pix"
-                  loading="lazy"
-                  className="w-full h-auto rounded-2xl border border-border"
-                />
-              </div>
-              <div className="p-6 border-t border-border">
-                <p className="text-xs font-semibold tracking-widest uppercase text-success mb-2">Pix Recebido de trabalho como social media</p>
-                <h3 className="font-bold text-lg mb-1">+ R$ 1.000,00 na conta</h3>
-                <p className="text-sm text-muted-foreground">Resultado do trabalho com uma das profissões do marketing digital, aplicando o que está no guia</p>
-              </div>
-            </div>
-            </div>
-
-            <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="p-4 bg-gradient-to-br from-warning/5 to-brand-primary/5 flex items-center justify-center min-h-[240px]">
                 <img
                   src={resultMetrics}
@@ -292,6 +275,24 @@ function Index() {
                 <p className="text-sm text-muted-foreground">190 pedidos e R$ 546,50 de comissão estimada aplicando o método do guia.</p>
               </div>
             </div>
+
+            <div className="bg-card rounded-3xl border border-border overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div className="p-4 bg-gradient-to-br from-success/5 to-brand-accent/5 flex items-center justify-center min-h-[240px]">
+                <img
+                  src={resultPix}
+                  alt="Notificação de recebimento de R$ 1.000,00 via Pix"
+                  loading="lazy"
+                  className="w-full h-auto rounded-2xl border border-border"
+                />
+              </div>
+              <div className="p-6 border-t border-border">
+                <p className="text-xs font-semibold tracking-widest uppercase text-success mb-2">Pix Recebido de trabalho como social media</p>
+                <h3 className="font-bold text-lg mb-1">+ R$ 1.000,00 na conta</h3>
+                <p className="text-sm text-muted-foreground">Resultado do trabalho com uma das profissões do marketing digital, aplicando o que está no guia</p>
+              </div>
+            </div>
+          </div>
+
 
 
           <p className="text-center text-xs text-muted-foreground mt-8 max-w-xl mx-auto">
