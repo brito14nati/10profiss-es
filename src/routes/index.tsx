@@ -271,7 +271,7 @@ function Index() {
               </div>
               <div className="p-6 border-t border-border">
                 <p className="text-xs font-semibold tracking-widest uppercase text-warning mb-2">painel de afiliado da shopee</p>
-                <h3 className="font-bold text-lg mb-1">R$ 6,1 mil em vendas no mês</h3>
+                <h3 className="font-bold text-lg mb-1">R$546,50 de comissão no mês</h3>
                 <p className="text-sm text-muted-foreground">190 pedidos e R$ 546,50 de comissão estimada aplicando o método do guia.</p>
               </div>
             </div>
