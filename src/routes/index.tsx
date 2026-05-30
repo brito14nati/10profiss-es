@@ -115,7 +115,7 @@ function Index() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <a
-                href="#bonuses"
+                href="#resultados"
                 className="px-8 py-4 bg-brand-primary hover:bg-brand-accent text-white font-bold rounded-xl transition-all shadow-lg shadow-brand-primary/30 text-center"
               >
                 QUERO MEU ACESSO AGORA
@@ -229,7 +229,7 @@ function Index() {
       </section>
 
       {/* Real Results / Social Proof */}
-      <section className="py-20 bg-background">
+      <section id="resultados" className="py-20 bg-background scroll-mt-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12 max-w-2xl mx-auto">
             <span className="inline-block px-4 py-1.5 mb-4 text-xs font-bold tracking-widest uppercase bg-success/10 text-success rounded-full">
