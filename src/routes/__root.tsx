@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Ganhe Renda Extra com 10 Profissões do Marketing Digital" },
+      { name: "description", content: "Descubra 10 profissões do marketing digital para gerar renda extra. Inclui bônus: Afiliado TikTok Shop, Shopee e Mercado Livre." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Ganhe Renda Extra com 10 Profissões do Marketing Digital" },
+      { property: "og:description", content: "Descubra 10 profissões do marketing digital para gerar renda extra. Inclui bônus: Afiliado TikTok Shop, Shopee e Mercado Livre." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Ganhe Renda Extra com 10 Profissões do Marketing Digital" },
+      { name: "twitter:description", content: "Descubra 10 profissões do marketing digital para gerar renda extra. Inclui bônus: Afiliado TikTok Shop, Shopee e Mercado Livre." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/a1U04c71SINqErpjVVlSgvRf9IQ2/social-images/social-1780128529093-ChatGPT_Image_30_de_mai._de_2026,_05_08_17.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/a1U04c71SINqErpjVVlSgvRf9IQ2/social-images/social-1780128529093-ChatGPT_Image_30_de_mai._de_2026,_05_08_17.webp" },
     ],
     links: [
       {
