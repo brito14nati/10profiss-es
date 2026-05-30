@@ -351,8 +351,8 @@ function Index() {
           <p className="text-slate-400 mb-10">Acesso imediato ao guia completo + bônus especial + suporte no WhatsApp</p>
           <div className="bg-white/5 border border-white/10 p-10 lg:p-12 rounded-3xl backdrop-blur-sm">
             <p className="text-sm text-slate-400 uppercase tracking-widest mb-2">Hoje por apenas</p>
-            <div className="text-6xl lg:text-7xl font-display font-extrabold text-brand-accent mb-3">
-              R$ 17,90
+            <div className="lg:text-7xl font-display font-extrabold text-brand-accent mb-3 text-5xl">
+              R$ 19,90
             </div>
             <p className="text-sm text-slate-400 mb-8">Pagamento único · Acesso imediato</p>
             <a
