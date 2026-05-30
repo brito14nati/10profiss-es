@@ -356,7 +356,9 @@ function Index() {
             </div>
             <p className="text-sm text-slate-400 mb-8">Pagamento único · Acesso imediato</p>
             <a
-              href="#"
+              href="https://pay.hotmart.com/X106059922B"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full py-5 bg-brand-primary hover:bg-brand-accent text-white font-black text-lg lg:text-xl rounded-2xl transition-all hover:scale-[1.02] active:scale-95 shadow-2xl shadow-brand-primary/30"
             >
               GARANTIR MEU ACESSO AGORA
