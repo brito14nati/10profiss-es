@@ -72,7 +72,7 @@ function BlogPost() {
       <article className="py-16">
         <div className="container mx-auto px-6 max-w-2xl">
           <div className="prose prose-lg max-w-none">
-            {post.content.map((block, i) => {
+            {post.content.map((block: string, i: number) => {
               if (block.startsWith("## ")) {
                 return (
                   <h2 key={i} className="font-display text-2xl font-bold mt-10 mb-3">
