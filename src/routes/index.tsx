@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import ebookCover from "@/assets/ebook-cover.png";
 import shopeeLogo from "@/assets/shopee-logo.png";
 import mercadoLivreLogo from "@/assets/mercadolivre-logo.png";
@@ -375,7 +375,12 @@ function Index() {
         </div>
       </section>
 
-      <footer className="py-10 border-t border-border text-center text-muted-foreground text-sm">
+      <footer className="py-10 border-t border-border text-center text-muted-foreground text-sm space-y-3">
+        <div>
+          <Link to="/blog" className="text-brand-primary hover:underline font-semibold">
+            Blog
+          </Link>
+        </div>
         <p>© 2024 Guia Profissões Digitais. Todos os direitos reservados.</p>
       </footer>
     </div>
