@@ -375,7 +375,12 @@ function Index() {
         </div>
       </section>
 
-      <footer className="py-10 border-t border-border text-center text-muted-foreground text-sm">
+      <footer className="py-10 border-t border-border text-center text-muted-foreground text-sm space-y-3">
+        <div>
+          <Link to="/blog" className="text-brand-primary hover:underline font-semibold">
+            Blog
+          </Link>
+        </div>
         <p>© 2024 Guia Profissões Digitais. Todos os direitos reservados.</p>
       </footer>
     </div>
