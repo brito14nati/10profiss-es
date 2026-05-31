@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import ebookCover from "@/assets/ebook-cover.png";
 import shopeeLogo from "@/assets/shopee-logo.png";
 import mercadoLivreLogo from "@/assets/mercadolivre-logo.png";
